@@ -214,34 +214,66 @@
 // console.log(window.x);
 // console.log(window.c);
 
-let x = "name";
+// let x = "name";
 
-let arr = [
-    { name: "monu", technology: "node js", version: "0" },
-    { name: "shivam", technology: "node js", version: "0" },
-    { name: "abuzar", technology: "node js", version: "0" },
-    { name: "zahid", technology: "React", version: "0" },
-    { name: "amit", technology: "React", version: "0" },
-];
-
-
-let name = { name: "monu", technology: "node js", version: "0" }
+// let arr = [
+//     { name: "monu", technology: "node js", version: "0" },
+//     { name: "shivam", technology: "node js", version: "0" },
+//     { name: "abuzar", technology: "node js", version: "0" },
+//     { name: "zahid", technology: "React", version: "0" },
+//     { name: "amit", technology: "React", version: "0" },
+// ];
 
 
-for (let y in name) {
-
-    console.log(y);
-}
+// let name = { name: "monu", technology: "node js", version: "0" }
 
 
-console.log(name.name = x)
+// for (let y in name) {
 
-arr.forEach((item) => {
-    // console.log(item.name)
-    if (item.name == 'abuzar') {
-        item.name = "monu"
-    }
-})
+//     console.log(y);
+// }
+
+
+// console.log(name.name = x)
+
+// arr.forEach((item) => {
+//     // console.log(item.name)
+//     if (item.name == 'abuzar') {
+//         item.name = "monu"
+//     }
+// })
 
 
 // console.log(arr)
+
+// let data = arr.filter((item, index) => {
+//     return arr.indexOf(item) != index
+// })
+
+// let arr = [10, 15, 0, 50, 50, 53, 1, 32, 45, 210, 15, 1, 205];
+
+// let arr2 = []
+
+// let arr3 = [];
+
+// for (let x = 0; x < arr.length; x++) { 
+//     if(arr.indexOf(arr[x]) != x){
+//         arr2.push(arr[x]);
+//     }else{
+//         arr3.push(arr[x])
+//     }
+// }
+// console.log(arr)
+
+// console.log(arr3)
+
+// console.log(arr2)
+
+
+// for (let x = 0; x < arr.length; x++) { 
+//     if(arr.indexOf(arr[x]) != x){
+//         arr2.push(arr[x]);
+//     }else{
+//         arr3.push(arr[x])
+//     }
+// }
