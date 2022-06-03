@@ -246,9 +246,7 @@
 
 // console.log(arr)
 
-// let data = arr.filter((item, index) => {
-//     return arr.indexOf(item) != index
-// })
+
 
 // let arr = [10, 15, 0, 50, 50, 53, 1, 32, 45, 210, 15, 1, 205];
 
@@ -277,3 +275,29 @@
 //         arr3.push(arr[x])
 //     }
 // }
+
+// let arr = [10, 15, 0, 50, 50, 53, 1, 32, 45, 210, 15, 1, 205];
+
+
+
+// let data = arr.filter((item, index) => {
+//     return arr.indexOf(item) != index
+// })
+
+// console.log(data)
+
+// let data = "abcdef";
+// let arr = data.split('');
+// let arr2 = []
+// let str = arr2.join('');
+
+// arr.forEach((item, index) => {
+//     let num = index + 1;
+//     let value = (num % 2 !== 0) ? index + 1 : index - 1;
+//     arr2.push(arr[value]);
+// })
+
+
+// console.log(arr2)
+// console.log(arr2.join(''))
+// console.log(str)
