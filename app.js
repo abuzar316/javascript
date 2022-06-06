@@ -301,3 +301,36 @@
 // console.log(arr2)
 // console.log(arr2.join(''))
 // console.log(str)
+
+
+// function reversString(str) {
+//     let arr = str.split('');
+//     let arr2 = []
+//     for (let i = 0; i < arr.length; i++) {
+//         let value = ((i + 1) % 2 !== 0) ? i + 1 : i - 1;
+//         arr2.push(arr[value])
+//     }
+//     return arr2.join('');
+// }
+
+// let data = reversString('abcdefghij');
+
+// console.log(data)
+
+// let arr = [10, 15, 10, 20, 10, 10, 10, 10, 10, 10, 10, 10, 15, 15, 15, 15, 30, 12, 12, 12, 12, 14, 12];
+
+// // // console.log(dupArr(arr))
+// dupArr(arr)
+
+// function dupArr(arr) {
+//     let out = {};
+//     arr.forEach((item) => {
+//         if (out[item]) {
+//             out[item] += 1;
+//             return;
+//         }
+//         out[item] = 1
+//     })
+//     console.log(out)
+//     return out;
+// }
