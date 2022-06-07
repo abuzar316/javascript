@@ -334,3 +334,26 @@
 //     console.log(out)
 //     return out;
 // }
+
+// let arr = [10, 15, 0, 50, 50, 53, 1, 32, 45, 210, 15, 1, 205];
+
+// console.log(arr)
+
+// let val = arr.filter((e) => {
+//     return e === 50
+// })
+
+// console.log(val)
+
+
+// }
+
+// let arr = [10, 15, 0, 50, 50, 53, 1, 32, 45, 210, 15, 1, 205];
+
+// console.log(arr)
+
+// let val = arr.filter((e) => {
+//     return e === 50
+// })
+
+// console.log(val)
