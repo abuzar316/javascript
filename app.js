@@ -357,3 +357,75 @@
 // })
 
 // console.log(val)
+
+function test() {
+    setTimeout(() => {
+        console.log("first");
+    });
+}
+// test()
+
+// let myPromise = new Promise((resolve, reject) => {
+//     let x = 0;
+
+//     if (x == 0) {
+//         resolve("OK");
+//     }
+//     else {
+//         reject("ERROR");
+//     }
+// });
+
+// // console.log(myPromise)
+
+// myPromise.then(() => {
+//     test();
+// }).then(() => {
+//     console.log("second")
+// })
+
+// let myPromise = new Promise(function (myResolve, myReject) {
+//     setTimeout(function () { myResolve("I love You !!"); }, 3000);
+// });
+
+// myPromise.then(function (value) {
+//     console.log(value);
+// });
+
+// debugger
+// function doSetTimeout(i) {
+//     setTimeout(function () {
+//         console.log(i * 1000);
+//     },  1000 + (3000 * i));
+// }
+
+// for (var i = 1; i < 6; i++) {
+//     doSetTimeout(i);
+// }
+
+
+// for (var i=0;i<=10;i++) {
+//     (function(ind) {
+//         setTimeout(function(){console.log(ind);}, 1000 + (3000 * ind));
+//     })(i);
+//  }
+
+
+// for (var i=0;i<=10;i++) {
+//     (function(ind) {
+//         setTimeout(function(){console.log((ind + 1)*1000, ':', ind);}, 1000 * (ind+1) );
+//     })(i);
+//  }
+
+
+for (let i = 1; i <= 5; i++) {
+    task(i);
+}
+
+function task(i) {
+    setTimeout(function () {
+        console.log(i);
+    }, 2000 * i);
+}
+
+
